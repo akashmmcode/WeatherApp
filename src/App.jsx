@@ -64,6 +64,8 @@ function App() {
     <>
       <div className="app">
         <div className="search">
+        <h1>Check Your Weather</h1>
+        <p>Enter a city name to get started.</p>
           <input
             type="text"
             value={location}
